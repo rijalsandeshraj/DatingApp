@@ -10,7 +10,7 @@ import { User } from '../_models/user';
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [CommonModule, FormsModule, NgIf, BsDropdownModule],
+  imports: [CommonModule, FormsModule, BsDropdownModule],
   providers: [provideAnimations()],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css',
