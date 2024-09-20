@@ -165,7 +165,7 @@
     "Country": "Cocos (Keeling Islands)",
     "Photos": [
       {
-        "Url": "http s://randomuser.me/api/portraits/men/40.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/40.jpg",
         "IsMain": true
       }
     ]
