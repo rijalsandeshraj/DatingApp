@@ -5,16 +5,17 @@ import { NavComponent } from './nav/nav.component';
 import { AccountService } from './_services/account.service';
 import { HomeComponent } from './home/home.component';
 import { NgxSpinnerComponent } from 'ngx-spinner';
+import { FileUploadModule } from 'ng2-file-upload';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
-    NgFor,
     NavComponent,
     HomeComponent,
     NgxSpinnerComponent,
+    FileUploadModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
